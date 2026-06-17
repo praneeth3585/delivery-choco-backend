@@ -1,0 +1,6 @@
+services:
+  app:
+    build: .
+    container_name: delivery-choco-app
+    ports:
+      - "8081:8080"
