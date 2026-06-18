@@ -37,6 +37,7 @@ public class SecurityConfig {
                         .requestMatchers("/api/auth/**").permitAll()
                         .requestMatchers("/api/test").permitAll()
                         .requestMatchers("/api/restaurants/**").permitAll()
+                        .requestMatchers("/api/menu/**").permitAll()
 
                         // Temporary
                         .requestMatchers("/api/admin/**").permitAll()
